@@ -1,0 +1,78 @@
+{
+  "week": "2026-10-12",
+  "postAt": "20:00",
+  "hashtags": "#quitporn #recovery #selfgrowth #mentalhealth #mindfulness #healing #discipline #onedayatatime",
+  "posts": [
+    {
+      "date": "2026-10-12",
+      "day": "mon",
+      "name": "mission",
+      "kind": "carousel",
+      "slides": [
+        { "mood": "violet", "label": "WHY GUARDIAN EXISTS", "lead": "You were made for more than a screen at", "emphasis": "2 a.m." },
+        { "mood": "violet", "label": "THE TRUTH", "lead": "Struggling with this doesn't make you broken.", "emphasis": "It makes you human.", "sub": "Habits that took years to build can be unlearned, one urge at a time.", "size": 92 },
+        { "mood": "teal", "label": "WHAT GUARDIAN DOES", "lead": "A pause when the urge hits.", "emphasis": "A friend in your pocket.", "sub": "A calm curtain before risky sites.\nA short lesson every day.\nA journey that grows with you.", "size": 92 },
+        { "mood": "gold", "centered": true, "mark": "diamond", "label": "COMING SOON", "lead": "Follow along.", "emphasis": "Start with us.", "sub": "Guardian is coming to the App Store and Google Play." }
+      ],
+      "caption": "Nobody plans to end up scrolling at 2 a.m., feeling worse than before.\n\nIf porn has become something you want to stop but can't seem to, you're not broken, and you're not alone. Guardian is an app we're building to be in your corner: a pause when the urge hits, a short lesson every day, and a journey that grows with you.\n\nNo shame. No lectures. Just support that shows up when it matters.\n\nFollow along. We're launching soon. 💜"
+    },
+    {
+      "date": "2026-10-13",
+      "day": "tue",
+      "name": "wave",
+      "kind": "post",
+      "slides": [
+        { "mood": "teal", "label": "TODAY'S REMINDER", "mark": "quote", "lead": "You don't have to fight the wave.", "emphasis": "You only have to outlast it.", "sub": "Every urge rises, peaks and passes. Breathe, and let this one go by.", "size": 96 }
+      ],
+      "caption": "An urge feels like it will keep rising until you give in. It won't.\n\nCravings tend to build, peak and fade, usually within 20 to 30 minutes. Next time one hits, notice where you feel it, breathe, and watch it crest. You don't have to win a fight. You just have to wait it out.\n\n(Source: Bowen et al., JAMA Psychiatry, 2014)\n\nSave this for the next hard moment. 🌊"
+    },
+    {
+      "date": "2026-10-14",
+      "day": "wed",
+      "name": "breathe",
+      "kind": "reel",
+      "reel": { "title": "When the urge comes,", "emphasis": "breathe.", "closing": "It will pass. It always does." },
+      "caption": "Try it with us right now: in for 4, hold for 7, out for 8.\n\nSlow breathing tells your body it's safe, and gives the urge time to pass. One round takes less than 20 seconds.\n\nSend this to someone who could use a pause today. 🫁"
+    },
+    {
+      "date": "2026-10-15",
+      "day": "thu",
+      "name": "why",
+      "kind": "post",
+      "slides": [
+        { "mood": "violet", "label": "NAME YOUR WHY", "mark": "quote", "lead": "Willpower runs out.", "emphasis": "Reasons don't.", "sub": "Pick one reason and make it specific. Say it to yourself the next time the urge comes." }
+      ],
+      "caption": "Willpower is a battery. It drains. Your reasons don't.\n\nThe people who stay free usually know exactly what they're protecting: a partner, their focus, their faith, the kid who'll copy them one day.\n\nMake yours specific. Not \"be better\". Something like \"be fully present with her.\"\n\nWhat's your why? You can keep it to yourself, or share it below. 💬"
+    },
+    {
+      "date": "2026-10-16",
+      "day": "fri",
+      "name": "loved-ones",
+      "kind": "post",
+      "slides": [
+        { "mood": "teal", "label": "FOR THE ONES YOU LOVE", "lead": "The people in your life get the version of you", "emphasis": "that walks away from this.", "size": 92 }
+      ],
+      "caption": "Every time you walk away from the urge, someone wins: your partner, your kids, your friends, your future self.\n\nThey get the version of you who's present, rested and fully there.\n\nThat's worth fighting for. 💜"
+    },
+    {
+      "date": "2026-10-17",
+      "day": "sat",
+      "name": "day-one",
+      "kind": "post",
+      "slides": [
+        { "mood": "gold", "centered": true, "mark": "diamond", "label": "DAY 1", "lead": "Every streak starts with one brave day.", "emphasis": "Today can be yours.", "size": 92 }
+      ],
+      "caption": "Day 1 is the hardest, and the bravest.\n\nYou don't have to have it all figured out. You just have to choose today. Tomorrow you can choose again.\n\nIf today is your Day 1, drop a 💛 below. We're cheering for you."
+    },
+    {
+      "date": "2026-10-18",
+      "day": "sun",
+      "name": "reset",
+      "kind": "post",
+      "slides": [
+        { "mood": "ember", "label": "IF THIS WEEK WAS HARD", "lead": "A slip is information,", "emphasis": "not a verdict.", "sub": "You're not starting over. You're starting wiser.", "size": 108 }
+      ],
+      "caption": "If you slipped this week, read this twice: it doesn't erase what you've built.\n\nShame keeps the cycle going. Curiosity breaks it. What time was it? How were you feeling? Hungry, angry, lonely, tired?\n\nThat's information. Use it, rest, and begin again tomorrow. 🧡"
+    }
+  ]
+}
