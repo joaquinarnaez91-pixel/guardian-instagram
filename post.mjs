@@ -16,11 +16,20 @@ const parts = Object.fromEntries(
     .formatToParts(new Date()).map((p) => [p.type, p.value]),
 );
 const today = `${parts.year}-${parts.month}-${parts.day}`;
-const date = process.env.POST_DATE || today;
+const yesterday = new Date(Date.parse(`${today}T12:00:00Z`) - 86_400_000).toISOString().slice(0, 10);
+const posted = (d) => fs.existsSync(path.join('posted', `${d}.json`));
 
-if (!process.env.POST_DATE && Number(parts.hour) < POST_HOUR) {
-  console.log(`It is ${parts.hour}:00 in ${TZ}; posts go out from ${POST_HOUR}:00.`);
-  process.exit(0);
+// GitHub's scheduler can run hours late, so this runs hourly: today's post from 20:00, and a post
+// that a late run missed yesterday goes out the next morning (until noon). One post per run.
+let date = process.env.POST_DATE;
+if (!date) {
+  const hour = Number(parts.hour);
+  if (hour >= POST_HOUR && !posted(today)) date = today;
+  else if (hour < 12 && !posted(yesterday)) date = yesterday;
+  else {
+    console.log(`Nothing due at ${parts.hour}:00 in ${TZ}.`);
+    process.exit(0);
+  }
 }
 const marker = path.join('posted', `${date}.json`);
 if (fs.existsSync(marker)) {

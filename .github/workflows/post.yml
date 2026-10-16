@@ -1,11 +1,10 @@
 name: Post to Instagram
 
 on:
-  # 01:00 and 02:00 UTC: one of them is 20:00 in Guardian's time zone (America/Chicago),
-  # whether or not daylight saving is on. post.mjs posts once a day, from 20:00.
+  # Hourly, off the top of the hour (GitHub delays scheduled runs, most at :00). post.mjs decides:
+  # today's post from 20:00 Guardian time (America/Chicago), or yesterday's if a late run missed it.
   schedule:
-    - cron: '0 1 * * *'
-    - cron: '0 2 * * *'
+    - cron: '17 * * * *'
   workflow_dispatch:
     inputs:
       post_date:
