@@ -1,2 +1,5 @@
 node_modules/
 *.log
+reel/clips/
+reel/*.mp4
+samples/

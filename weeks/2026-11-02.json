@@ -1,0 +1,78 @@
+{
+  "week": "2026-11-02",
+  "postAt": "20:00",
+  "hashtags": "#quitporn #recovery #selfgrowth #mentalhealth #mindfulness #healing #discipline #onedayatatime",
+  "posts": [
+    {
+      "date": "2026-11-02",
+      "day": "mon",
+      "name": "the-ranger-journey",
+      "kind": "carousel",
+      "slides": [
+        { "template": "Journey", "label": "WHAT YOU'RE FIGHTING FOR", "lead": "Real people aren't scripts.", "emphasis": "Real connection is better.", "stages": ["journey_ranger_stage_0", "journey_ranger_stage_4", "journey_ranger_stage_8"], "captions": ["THE START", "THE PATH", "THE RANGER"] },
+        { "template": "Character", "art": "journey_ranger_stage_0", "label": "BEHIND THE SCREEN", "lead": "You can't tell from the screen", "emphasis": "who chose to be there.", "sub": "That alone is reason enough to look away." },
+        { "template": "Character", "art": "journey_ranger_stage_4", "label": "WHAT GROWS INSTEAD", "lead": "Slower. Messier.", "emphasis": "Far more real." },
+        { "template": "Character", "art": "journey_ranger_stage_8", "label": "ONE DAY AT A TIME", "lead": "Choose the real thing.", "emphasis": "Starting today." }
+      ],
+      "caption": "Porn is staged, edited and scripted. Real intimacy is slower, more awkward, and far better.\n\nAnd there's something the screen never shows: whether the person in the video actually chose to be there. That alone is reason enough to look away.\n\nWhat you're fighting for is real connection, with real people, on real terms. It's worth the wait. 💜"
+    },
+    {
+      "date": "2026-11-03",
+      "day": "tue",
+      "name": "friction",
+      "kind": "post",
+      "slides": [
+        { "template": "PhotoQuote", "image": "photos/b1_curtain.jpg", "focus": 40, "label": "URGE HACK", "lead": "A few seconds of friction", "emphasis": "is often all it takes." }
+      ],
+      "caption": "Willpower is unreliable. Design isn't.\n\nThe urge needs speed. If it takes three extra steps to get there, the wave often passes before you do. Charge your phone outside the bedroom. Log out. Move tempting apps off your home screen. Turn on a content filter.\n\nGuardian adds that pause for you: a calm curtain before risky sites, so you get a moment to choose. 🛠️"
+    },
+    {
+      "date": "2026-11-04",
+      "day": "wed",
+      "name": "fully-there",
+      "kind": "reel",
+      "reel": { "template": "ClipReel", "clip": "m2_breakfast", "len": 6, "lines": [{ "at": 0.4, "until": 3, "lead": "Present." }, { "at": 3.2, "until": 6, "lead": "Be", "emphasis": "fully there." }], "closing": "Fight for what matters most to you." },
+      "caption": "The people in your life get the version of you that walks away from this.\n\nPresent. Rested. Laughing at breakfast instead of carrying a secret.\n\nThat's the whole point. 💜"
+    },
+    {
+      "date": "2026-11-05",
+      "day": "thu",
+      "name": "the-mage-66",
+      "kind": "post",
+      "slides": [
+        { "template": "Character", "art": "journey_mage_stage_8", "label": "NEW HABITS TAKE TIME", "lead": "Be patient with yourself.", "emphasis": "Missing a day doesn't undo it." }
+      ],
+      "caption": "How long does it take for a new habit to feel automatic?\n\nIn one study that followed people building new daily habits, it took anywhere from 18 to 254 days, typically around 66. And missing a single day didn't derail the process.\n\nSo if it still feels hard, that's normal. You're not failing. You're in the middle. 🌿\n\n(Source: Lally et al., European Journal of Social Psychology, 2010)"
+    },
+    {
+      "date": "2026-11-06",
+      "day": "fri",
+      "name": "pushing-back",
+      "kind": "post",
+      "slides": [
+        { "template": "PhotoQuote", "image": "photos/hero.jpg", "focus": 30, "label": "YOU'RE PART OF SOMETHING", "lead": "Thousands of people are pushing back.", "emphasis": "You're one of them." }
+      ],
+      "caption": "It can feel like you're the only one fighting this. You're not.\n\nAll over the world, people are quitting, speaking up and pushing back against an industry that profits from harm. Every day you stay free, you're part of that.\n\nTag someone who's in this fight with you. 💛"
+    },
+    {
+      "date": "2026-11-07",
+      "day": "sat",
+      "name": "day-thirty",
+      "kind": "post",
+      "slides": [
+        { "mood": "gold", "centered": true, "mark": "diamond", "label": "DAY 30", "lead": "You decided you were worth fighting for.", "emphasis": "You were right.", "sub": "Be proud of the quiet wins nobody saw.", "size": 88 }
+      ],
+      "caption": "Thirty days. A whole month of choosing yourself.\n\nIf you're hitting day 30, stop for a second and take it in. Nobody saw most of those wins. They were quiet: a phone put down, a walk taken, a night you went to bed instead.\n\nThose count the most. 💛"
+    },
+    {
+      "date": "2026-11-08",
+      "day": "sun",
+      "name": "how-far",
+      "kind": "post",
+      "slides": [
+        { "mood": "ember", "label": "SUNDAY RESET", "lead": "Look how far you've come.", "emphasis": "Keep going.", "sub": "You know more than you did on day one.", "size": 108 }
+      ],
+      "caption": "Whatever this month looked like for you, perfect or messy, you know more than you did on day one.\n\nYou know your danger hours. You know what an urge feels like, and that it passes. You know your why.\n\nThat knowledge doesn't go away. Keep going. 🧡"
+    }
+  ]
+}

@@ -18,14 +18,17 @@ for (const post of week.posts) {
   const base = `${post.date}_${post.day}_${post.name}`;
   const files = [];
   if (post.kind === 'reel') {
-    const inputProps = post.reel;
-    const composition = await selectComposition({ serveUrl, id: 'Reel', inputProps });
+    // "template" picks the composition: the breathing Reel (default) or a cut of existing footage (ClipReel).
+    const { template = 'Reel', ...inputProps } = post.reel;
+    const composition = await selectComposition({ serveUrl, id: template, inputProps });
     const file = `${base}.mp4`;
     await renderMedia({ serveUrl, composition, codec: 'h264', inputProps, outputLocation: path.join(outDir, file) });
     files.push(file);
   } else {
-    for (const [i, inputProps] of post.slides.entries()) {
-      const composition = await selectComposition({ serveUrl, id: 'Quote', inputProps });
+    for (const [i, slide] of post.slides.entries()) {
+      // Each slide names its layout: Quote (default), Journey, Character or PhotoQuote.
+      const { template = 'Quote', ...inputProps } = slide;
+      const composition = await selectComposition({ serveUrl, id: template, inputProps });
       // Instagram's publishing API takes JPEG only.
       const file = post.slides.length > 1 ? `${base}_${i + 1}.jpg` : `${base}.jpg`;
       await renderStill({ serveUrl, composition, inputProps, imageFormat: 'jpeg', jpegQuality: 95, output: path.join(outDir, file) });
