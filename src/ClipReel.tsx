@@ -58,7 +58,7 @@ const Close: React.FC<{ text: string }> = ({ text }) => {
           <Mark size={84} color="#FFFFFF" />
         </div>
         <div style={{ fontFamily: serif, fontSize: 80, lineHeight: 1.12, letterSpacing: '-0.02em', color: C.text }}>{text}</div>
-        <div style={{ fontFamily: sans, fontWeight: 800, fontSize: 28, letterSpacing: '0.2em', color: C.muted }}>GUARDIAN · FOLLOW FOR LAUNCH</div>
+        <div style={{ fontFamily: sans, fontWeight: 800, fontSize: 28, letterSpacing: '0.2em', color: C.muted }}>GUARDIAN · FOR iPHONE</div>
       </div>
     </AbsoluteFill>
   );

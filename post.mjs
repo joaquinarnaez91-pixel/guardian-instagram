@@ -70,7 +70,13 @@ async function ready(id) {
 
 const url = (file) => `${mediaBase}/out/${week.week}/${file}`;
 const base = `${post.date}_${post.day}_${post.name}`;
-const caption = [post.caption, week.cta, week.hashtags].filter(Boolean).join('\n\n');
+// The launch line switches by itself once Apple's lookup finds the app (approval to public can take a day).
+const APP_STORE_ID = '6819515592';
+const appLive = await fetch(`https://itunes.apple.com/lookup?id=${APP_STORE_ID}&country=us`)
+  .then((r) => r.json()).then((j) => j.resultCount > 0).catch(() => false);
+const cta = appLive ? (week.ctaLive ?? week.cta) : week.cta;
+console.log(`App Store listing ${appLive ? 'is live' : 'not public yet'}.`);
+const caption = [post.caption, cta, week.hashtags].filter(Boolean).join('\n\n');
 
 let container;
 if (post.kind === 'reel') {
