@@ -38,7 +38,7 @@ for (const post of week.posts) {
   console.log(`  ${post.date} ${post.day}: ${files.join(', ')}`);
   captions.push(
     `${post.date} (${post.day.toUpperCase()}) at ${week.postAt}, ${post.kind}\n` +
-    `Files: ${files.join(', ')}\n\n${post.caption}\n\n${week.hashtags}\n`
+    `Files: ${files.join(', ')}\n\n${[post.caption, week.cta, week.hashtags].filter(Boolean).join('\n\n')}\n`
   );
 }
 

@@ -28,8 +28,9 @@ export const ClipReel: React.FC<ClipReelProps> = ({ clip, start = 0, len, lines,
         <AbsoluteFill style={{ background: 'linear-gradient(180deg, rgba(7,10,22,0.35) 0%, rgba(7,10,22,0) 25%, rgba(7,10,22,0) 55%, rgba(7,10,22,0.7) 85%)' }} />
       </Sequence>
       {lines.map((l, i) => {
+        // A line at 0 is the hook: on screen from the first frame, so the scroll stops on words, not a fade.
         const o = Math.min(
-          interpolate(frame, [s(l.at), s(l.at + 0.6)], [0, 1], { extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: ease }),
+          l.at <= 0 ? 1 : interpolate(frame, [s(l.at), s(l.at + 0.6)], [0, 1], { extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: ease }),
           interpolate(frame, [s(l.until - 0.5), s(l.until)], [1, 0], { extrapolateLeft: 'clamp', extrapolateRight: 'clamp' }),
         );
         if (o <= 0) return null;
@@ -57,7 +58,7 @@ const Close: React.FC<{ text: string }> = ({ text }) => {
           <Mark size={84} color="#FFFFFF" />
         </div>
         <div style={{ fontFamily: serif, fontSize: 80, lineHeight: 1.12, letterSpacing: '-0.02em', color: C.text }}>{text}</div>
-        <div style={{ fontFamily: sans, fontWeight: 800, fontSize: 28, letterSpacing: '0.2em', color: C.muted }}>GUARDIAN · COMING SOON</div>
+        <div style={{ fontFamily: sans, fontWeight: 800, fontSize: 28, letterSpacing: '0.2em', color: C.muted }}>GUARDIAN · FOLLOW FOR LAUNCH</div>
       </div>
     </AbsoluteFill>
   );

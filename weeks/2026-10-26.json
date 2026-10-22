@@ -1,7 +1,8 @@
 {
   "week": "2026-10-26",
   "postAt": "20:00",
-  "hashtags": "#quitporn #recovery #selfgrowth #mentalhealth #mindfulness #healing #discipline #onedayatatime",
+  "hashtags": "#quitporn #nofap #pornaddictionrecovery #pornfree #recoveryjourney",
+  "cta": "Guardian is launching soon. Follow along so you hear first. 🛡️",
   "posts": [
     {
       "date": "2026-10-26",
@@ -14,16 +15,14 @@
         { "template": "Character", "art": "journey_warrior_stage_4", "label": "REPLACE, DON'T JUST REMOVE", "lead": "Pick what you'll do instead.", "emphasis": "Then do it now.", "sub": "A walk. A call. A glass of cold water." },
         { "template": "Character", "art": "journey_warrior_stage_8", "label": "KEEP GOING", "lead": "You're not just stopping something.", "emphasis": "You're growing everything else." }
       ],
-      "caption": "Your brain strengthens the paths you use and quietly lets the others fade.\n\nEvery urge you ride out is a repetition in the other direction: the cue shows up, and nothing follows. Early on the pull feels constant. With time, it gets quieter.\n\nThe trick is not leaving a hole. Decide now what you'll do when the urge comes, and do that instead. 🛡️"
+      "caption": "Your brain strengthens the paths you use and quietly lets the others fade.\n\nEvery urge you ride out is a repetition in the other direction: the cue shows up, and nothing follows. Early on the pull feels constant. With time, it gets quieter.\n\nThe trick is not leaving a hole. Decide now what you'll do when the urge comes, and do that instead. 🛡️\n\nSave this for a hard night."
     },
     {
       "date": "2026-10-27",
       "day": "tue",
       "name": "danger-hour",
-      "kind": "post",
-      "slides": [
-        { "template": "PhotoQuote", "image": "photos/dawn.jpg", "zoom": 1.2, "label": "PLAN FOR YOUR DANGER HOUR", "lead": "Last night you chose sleep.", "emphasis": "This morning, you feel it." }
-      ],
+      "kind": "reel",
+      "reel": { "template": "ClipReel", "clip": "k1_scroll", "len": 6, "lines": [{ "at": 0, "until": 2.8, "lead": "11:47 PM." }, { "at": 3, "until": 6, "lead": "Tired. Alone.", "emphasis": "Phone in hand." }], "closing": "Know your danger hour. Plan for it." },
       "caption": "Most slips don't happen at noon. They happen late, tired, alone, phone in hand.\n\nKnow your danger hour and plan for it. Charge your phone outside the bedroom. Set a time when screens go off. Have a book by the bed.\n\nIf it's late and you're reading this: put the phone down. Seriously. Goodnight. 🌙"
     },
     {
@@ -31,7 +30,7 @@
       "day": "wed",
       "name": "wake-up-proud",
       "kind": "reel",
-      "reel": { "template": "ClipReel", "clip": "m1_run", "len": 6, "lines": [{ "at": 0.4, "until": 3, "lead": "Wake up proud." }, { "at": 3.2, "until": 6, "lead": "Clear head.", "emphasis": "Nothing to hide." }], "closing": "The best mornings start the night before." },
+      "reel": { "template": "ClipReel", "clip": "m1_run", "len": 6, "lines": [{ "at": 0, "until": 3, "lead": "Wake up proud." }, { "at": 3.2, "until": 6, "lead": "Clear head.", "emphasis": "Nothing to hide." }], "closing": "The best mornings start the night before." },
       "caption": "There's a kind of morning you only get after a night you're proud of.\n\nClear head. Real energy. Nothing to hide from yourself.\n\nThat's what you're fighting for. Tag someone who's chasing mornings like this. 🌅"
     },
     {
@@ -48,10 +47,8 @@
       "date": "2026-10-30",
       "day": "fri",
       "name": "not-alone",
-      "kind": "post",
-      "slides": [
-        { "template": "PhotoQuote", "image": "photos/a2_morning.jpg", "focus": 25, "label": "YOU'RE NOT ALONE", "lead": "You don't have to", "emphasis": "hold this alone." }
-      ],
+      "kind": "reel",
+      "reel": { "template": "ClipReel", "clip": "a2_morning", "len": 6, "lines": [{ "at": 0, "until": 3, "lead": "Carrying this alone?" }], "closing": "Tell one person. Secrecy is where it grows." },
       "caption": "Secrecy is where this habit grows. Telling just one trusted person takes away a lot of its power.\n\nIt doesn't have to be a big confession. A friend, a brother, a partner, a mentor. Someone you can text when it gets hard, or who checks in on you once a week.\n\nWho's your one person? 🤝"
     },
     {
@@ -68,10 +65,8 @@
       "date": "2026-11-01",
       "day": "sun",
       "name": "weathers",
-      "kind": "post",
-      "slides": [
-        { "mood": "ember", "label": "IF THIS WEEK WAS HARD", "lead": "Your journey weathers.", "emphasis": "It never disappears.", "sub": "One hard day doesn't undo what you've built. Begin again tonight.", "size": 104 }
-      ],
+      "kind": "reel",
+      "reel": { "template": "ClipReel", "clip": "a1_glow", "len": 4, "lines": [{ "at": 0, "until": 4, "lead": "Slipped this week?", "emphasis": "It doesn't erase you." }], "closing": "Your journey weathers. It never disappears." },
       "caption": "Most people who quit something for good slipped along the way. What set them apart wasn't a perfect record. It was how fast they got back up.\n\nThat's why in Guardian a slip doesn't wipe your progress. It weathers your journey for a few days, and then it shines again.\n\nThe skill you're really building is the comeback. 🧡"
     }
   ]

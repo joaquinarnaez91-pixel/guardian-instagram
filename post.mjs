@@ -70,7 +70,7 @@ async function ready(id) {
 
 const url = (file) => `${mediaBase}/out/${week.week}/${file}`;
 const base = `${post.date}_${post.day}_${post.name}`;
-const caption = `${post.caption}\n\n${week.hashtags}`;
+const caption = [post.caption, week.cta, week.hashtags].filter(Boolean).join('\n\n');
 
 let container;
 if (post.kind === 'reel') {
