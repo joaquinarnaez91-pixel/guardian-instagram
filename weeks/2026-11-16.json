@@ -1,0 +1,338 @@
+{
+  "week": "2026-11-16",
+  "postAt": "20:00",
+  "hashtags": "#nofap #nofapjourney #selfimprovement #discipline #recoveryjourney",
+  "cta": "Guardian is an app that helps you quit p*rn. Launching soon on iPhone. Follow so you don't miss it. 🛡️",
+  "ctaLive": "Guardian helps you quit p*rn. Out now on the App Store for iPhone, link in bio. Android is coming soon. 🛡️",
+  "posts": [
+    {
+      "date": "2026-11-16",
+      "day": "mon",
+      "kind": "reel",
+      "name": "want-vs-enjoy",
+      "reel": {
+        "template": "ClipReel",
+        "cuts": [
+          {
+            "clip": "k1_scroll",
+            "len": 4,
+            "grade": "cold"
+          },
+          {
+            "clip": "k2_pull",
+            "len": 4,
+            "grade": "cold"
+          },
+          {
+            "clip": "m1_run",
+            "len": 4
+          }
+        ],
+        "len": 12,
+        "lines": [
+          {
+            "at": 0,
+            "until": 4,
+            "lead": "Why is p*rn",
+            "emphasis": "so hard to quit?"
+          },
+          {
+            "at": 4.2,
+            "until": 8,
+            "lead": "The wanting gets loud.",
+            "emphasis": "The enjoying stays small."
+          },
+          {
+            "at": 8.2,
+            "until": 12,
+            "lead": "Not weakness.",
+            "emphasis": "Wiring. And wiring changes."
+          }
+        ],
+        "closing": "Your brain can learn the other way."
+      },
+      "caption": "Why is p*rn so hard to quit, even when you don't enjoy it much anymore?\n\nResearchers have found that \"wanting\" and \"liking\" run on different systems in the brain. With repetition, the wanting can grow very loud while the actual enjoyment stays small. That's why the urge promises so much and delivers so little.\n\nIt's not a character flaw. It's a learned pattern, and patterns can be unlearned, one urge at a time. 🧠\n\n(Source: Berridge & Robinson's incentive-salience research)\n\nSave this for a hard night."
+    },
+    {
+      "date": "2026-11-17",
+      "day": "tue",
+      "kind": "reel",
+      "name": "the-pause",
+      "reel": {
+        "template": "ClipReel",
+        "cuts": [
+          {
+            "clip": "b1_curtain",
+            "len": 8,
+            "grade": "cold"
+          },
+          {
+            "clip": "m1_sunrise",
+            "len": 4
+          }
+        ],
+        "len": 12,
+        "lines": [
+          {
+            "at": 0,
+            "until": 4,
+            "lead": "Late night.",
+            "emphasis": "P*rn is one tap away."
+          },
+          {
+            "at": 4.2,
+            "until": 8,
+            "lead": "Then:",
+            "emphasis": "a pause."
+          },
+          {
+            "at": 8.2,
+            "until": 12,
+            "lead": "Ten seconds to choose.",
+            "emphasis": "That's all you need."
+          }
+        ],
+        "closing": "Guardian puts a pause between you and p*rn."
+      },
+      "caption": "Willpower is unreliable at midnight. A pause isn't.\n\nThe urge needs speed. Put even ten seconds between you and p*rn and the wave often passes before you get there.\n\nThat's what Guardian does: a calm curtain over p*rn sites, so you get a moment to choose. Follow to know when it launches. 🛡️"
+    },
+    {
+      "date": "2026-11-18",
+      "day": "wed",
+      "kind": "reel",
+      "name": "urge-plan",
+      "reel": {
+        "template": "ClipReel",
+        "cuts": [
+          {
+            "clip": "k2_pull",
+            "len": 3,
+            "grade": "cold"
+          },
+          {
+            "clip": "m1_run",
+            "len": 5
+          },
+          {
+            "clip": "b2_breathe",
+            "len": 4,
+            "start": 2
+          }
+        ],
+        "len": 12,
+        "lines": [
+          {
+            "at": 0,
+            "until": 3,
+            "lead": "When the p*rn urge hits:"
+          },
+          {
+            "at": 3.2,
+            "until": 6,
+            "lead": "1. Leave the room."
+          },
+          {
+            "at": 6.2,
+            "until": 8.5,
+            "lead": "2. Move.",
+            "emphasis": "20 push-ups."
+          },
+          {
+            "at": 8.7,
+            "until": 12,
+            "lead": "3. Breathe.",
+            "emphasis": "In 4. Hold 7. Out 8."
+          }
+        ],
+        "closing": "Save this for the next urge."
+      },
+      "caption": "Your 3-step plan for the next time the urge to watch p*rn hits:\n\n1. Leave the room. Change the setting and you break the script.\n2. Move. Push-ups, a walk, cold water. Give the energy somewhere to go.\n3. Breathe. In for 4, hold for 7, out for 8. Repeat four times.\n\nDecide now, so you don't have to decide in the moment. Save this and use it tonight. 📌"
+    },
+    {
+      "date": "2026-11-19",
+      "day": "thu",
+      "kind": "reel",
+      "name": "not-a-bad-person",
+      "reel": {
+        "template": "ClipReel",
+        "cuts": [
+          {
+            "clip": "a1_glow",
+            "len": 4,
+            "grade": "cold"
+          },
+          {
+            "clip": "a2_morning",
+            "len": 4
+          },
+          {
+            "clip": "m1_sunrise",
+            "len": 4
+          }
+        ],
+        "len": 12,
+        "lines": [
+          {
+            "at": 0,
+            "until": 4,
+            "lead": "Struggling with p*rn",
+            "emphasis": "doesn't make you a bad person."
+          },
+          {
+            "at": 4.2,
+            "until": 8,
+            "lead": "Shame",
+            "emphasis": "keeps you stuck."
+          },
+          {
+            "at": 8.2,
+            "until": 12,
+            "lead": "Honesty",
+            "emphasis": "gets you out."
+          }
+        ],
+        "closing": "Send this to someone who needs it."
+      },
+      "caption": "If you're struggling to quit p*rn, read this twice: it doesn't make you a bad person.\n\nShame is what keeps the cycle going. You slip, you feel worthless, and that feeling is exactly what drives you back to it. Honesty breaks the loop: admitting it, talking about it, getting back up without punishing yourself.\n\nYou're not broken. You're fighting. Send this to someone who needs to hear it. 💜"
+    },
+    {
+      "date": "2026-11-20",
+      "day": "fri",
+      "kind": "reel",
+      "name": "the-real-thing",
+      "reel": {
+        "template": "ClipReel",
+        "cuts": [
+          {
+            "clip": "k1_scroll",
+            "len": 4,
+            "grade": "cold"
+          },
+          {
+            "clip": "m2_breakfast",
+            "len": 5
+          },
+          {
+            "clip": "m1_sunrise",
+            "len": 3
+          }
+        ],
+        "len": 12,
+        "lines": [
+          {
+            "at": 0,
+            "until": 4,
+            "lead": "P*rn is a script."
+          },
+          {
+            "at": 4.2,
+            "until": 9,
+            "lead": "Real connection is",
+            "emphasis": "slower. Messier. Better."
+          },
+          {
+            "at": 9.2,
+            "until": 12,
+            "lead": "Choose",
+            "emphasis": "the real thing."
+          }
+        ],
+        "closing": "Quit p*rn. Choose real."
+      },
+      "caption": "P*rn is staged, edited and scripted. And the screen never shows whether the person in it actually chose to be there.\n\nReal connection is slower, more awkward, and far better: real people, on real terms.\n\nThat's what you're fighting for. Tag someone who's choosing the real thing too. 💜"
+    },
+    {
+      "date": "2026-11-21",
+      "day": "sat",
+      "kind": "reel",
+      "name": "day-one-again",
+      "reel": {
+        "template": "ClipReel",
+        "cuts": [
+          {
+            "clip": "k2_pull",
+            "len": 4,
+            "grade": "cold"
+          },
+          {
+            "clip": "b2_breathe",
+            "len": 4,
+            "start": 2
+          },
+          {
+            "clip": "m1_run",
+            "len": 4
+          }
+        ],
+        "len": 12,
+        "lines": [
+          {
+            "at": 0,
+            "until": 4,
+            "lead": "Back on day 1",
+            "emphasis": "of quitting p*rn?"
+          },
+          {
+            "at": 4.2,
+            "until": 8,
+            "lead": "Good.",
+            "emphasis": "You're still fighting."
+          },
+          {
+            "at": 8.2,
+            "until": 12,
+            "lead": "What day are you on?",
+            "emphasis": "Comment it 👇"
+          }
+        ],
+        "closing": "Every streak starts at 1."
+      },
+      "caption": "Back on day 1? That's not failure. People who quit for good usually restart more than once. What matters is that you restarted.\n\nWhat day are you on? Comment it below, whether it's 1 or 100. Someone scrolling past needs to see they're not alone. 🛡️"
+    },
+    {
+      "date": "2026-11-22",
+      "day": "sun",
+      "kind": "reel",
+      "name": "sunday-check-in",
+      "reel": {
+        "template": "ClipReel",
+        "cuts": [
+          {
+            "clip": "m1_sunrise",
+            "len": 4
+          },
+          {
+            "clip": "m2_breakfast",
+            "len": 4
+          },
+          {
+            "clip": "m1_run",
+            "len": 4
+          }
+        ],
+        "len": 12,
+        "lines": [
+          {
+            "at": 0,
+            "until": 4,
+            "lead": "Sunday check-in."
+          },
+          {
+            "at": 4.2,
+            "until": 8,
+            "lead": "How many p*rn-free days",
+            "emphasis": "this week?"
+          },
+          {
+            "at": 8.2,
+            "until": 12,
+            "lead": "Drop the number.",
+            "emphasis": "No judgment."
+          }
+        ],
+        "closing": "Next week: one more than this one."
+      },
+      "caption": "Sunday check-in. Last week some of you said you were IN.\n\nHow many p*rn-free days did you get? Drop the number below, 0 to 7, no judgment. The point isn't perfection. The point is next week beats this one.\n\nProud of everyone still fighting. 💛"
+    }
+  ]
+}

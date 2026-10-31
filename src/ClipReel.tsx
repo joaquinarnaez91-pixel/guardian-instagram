@@ -6,10 +6,14 @@ export const CLIP_FPS = 30;
 export const CLOSE_SECONDS = 3;
 
 export type ClipLine = { at: number; until: number; lead?: string; emphasis?: string };
+/** One shot of a multi-clip story. "cold" desaturates it for the bad-night half of the story. */
+export type ClipCut = { clip: string; start?: number; len: number; grade?: 'cold' };
 export type ClipReelProps = {
   /** A clip already made for the story Reel, from public/reel/<clip>_veo.mp4. */
-  clip: string;
+  clip?: string;
   start?: number;
+  /** Or several shots played back to back; len must then equal their total. */
+  cuts?: ClipCut[];
   len: number;
   lines: ClipLine[];
   closing: string;
@@ -18,13 +22,27 @@ export type ClipReelProps = {
 const s = (sec: number) => Math.round(sec * CLIP_FPS);
 const ease = Easing.inOut(Easing.sin);
 
-/** A short Reel cut from footage we already have: the shot, a line or two, Guardian's close. */
-export const ClipReel: React.FC<ClipReelProps> = ({ clip, start = 0, len, lines, closing }) => {
+const Shot: React.FC<{ cut: ClipCut }> = ({ cut }) => (
+  <AbsoluteFill>
+    <OffthreadVideo
+      src={staticFile(`reel/${cut.clip}_veo.mp4`)} startFrom={s(cut.start ?? 0)}
+      style={{ width: '100%', height: '100%', objectFit: 'cover', filter: cut.grade === 'cold' ? 'saturate(0.3) brightness(0.82) contrast(1.05)' : 'none' }}
+    />
+    {cut.grade === 'cold' && <AbsoluteFill style={{ background: '#1B2A44', mixBlendMode: 'multiply', opacity: 0.35 }} />}
+  </AbsoluteFill>
+);
+
+/** A short Reel cut from footage we already have: the shot (or a few), a line or two, Guardian's close. */
+export const ClipReel: React.FC<ClipReelProps> = ({ clip, start = 0, cuts, len, lines, closing }) => {
   const frame = useCurrentFrame();
+  const shots = cuts ?? [{ clip: clip!, start, len }];
+  const starts = shots.map((_, i) => shots.slice(0, i).reduce((t, c) => t + c.len, 0));
   return (
     <AbsoluteFill style={{ background: C.groundDeep }}>
+      {shots.map((cut, i) => (
+        <Sequence key={i} from={s(starts[i])} durationInFrames={s(cut.len)}><Shot cut={cut} /></Sequence>
+      ))}
       <Sequence durationInFrames={s(len)}>
-        <OffthreadVideo src={staticFile(`reel/${clip}_veo.mp4`)} startFrom={s(start)} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
         <AbsoluteFill style={{ background: 'linear-gradient(180deg, rgba(7,10,22,0.35) 0%, rgba(7,10,22,0) 25%, rgba(7,10,22,0) 55%, rgba(7,10,22,0.7) 85%)' }} />
       </Sequence>
       {lines.map((l, i) => {

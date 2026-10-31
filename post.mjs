@@ -12,7 +12,7 @@ const mediaBase = (process.env.MEDIA_BASE ?? '').replace(/\/$/, '');
 if (!token || !mediaBase) throw new Error('IG_ACCESS_TOKEN and MEDIA_BASE are required');
 
 const parts = Object.fromEntries(
-  new Intl.DateTimeFormat('en-CA', { timeZone: TZ, year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', hourCycle: 'h23' })
+  new Intl.DateTimeFormat('en-CA', { timeZone: TZ, year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', hourCycle: 'h23' })
     .formatToParts(new Date()).map((p) => [p.type, p.value]),
 );
 const today = `${parts.year}-${parts.month}-${parts.day}`;
@@ -21,10 +21,15 @@ const posted = (d) => fs.existsSync(path.join('posted', `${d}.json`));
 
 // GitHub's scheduler can run hours late, so this runs hourly: today's post from 20:00, and a post
 // that a late run missed yesterday goes out the next morning (until noon). One post per run.
+// A run that lands in the afternoon waits for 20:00 itself, so the post isn't left to a late run.
+const MAX_WAIT_MIN = 340; // post.yml gives the job 355 minutes
 let date = process.env.POST_DATE;
+let waitMin = 0;
 if (!date) {
   const hour = Number(parts.hour);
-  if (hour >= POST_HOUR && !posted(today)) date = today;
+  const untilPost = (POST_HOUR - hour) * 60 - Number(parts.minute);
+  if (hour < POST_HOUR && untilPost <= MAX_WAIT_MIN && !posted(today)) { date = today; waitMin = untilPost; }
+  else if (hour >= POST_HOUR && !posted(today)) date = today;
   else if (hour < 12 && !posted(yesterday)) date = yesterday;
   else {
     console.log(`Nothing due at ${parts.hour}:00 in ${TZ}.`);
@@ -46,6 +51,10 @@ for (const f of fs.readdirSync('weeks').filter((f) => f.endsWith('.json'))) {
 if (!post) {
   console.log(`Nothing planned for ${date}.`);
   process.exit(0);
+}
+if (waitMin > 0) {
+  console.log(`Waiting ${waitMin} minutes for ${POST_HOUR}:00 in ${TZ}.`);
+  await new Promise((r) => setTimeout(r, waitMin * 60_000));
 }
 
 async function call(method, endpoint, params = {}) {

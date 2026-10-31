@@ -2,7 +2,7 @@ name: Post to Instagram
 
 on:
   # Hourly, off the top of the hour (GitHub delays scheduled runs, most at :00). post.mjs decides:
-  # today's post from 20:00 Guardian time (America/Chicago), or yesterday's if a late run missed it.
+  # today's post at 20:00 Guardian time (America/Chicago; an afternoon run waits for it), or yesterday's if a late run missed it.
   schedule:
     - cron: '17 * * * *'
   workflow_dispatch:
@@ -21,6 +21,8 @@ concurrency:
 jobs:
   post:
     runs-on: ubuntu-latest
+    # post.mjs may wait up to 340 minutes for 20:00 when a run lands in the afternoon.
+    timeout-minutes: 355
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -39,4 +41,5 @@ jobs:
           git config user.name "guardian-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git commit -m "Posted $(ls -t posted | head -1 | sed 's/.json//')"
+          git pull --rebase -q
           git push
