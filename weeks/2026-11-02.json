@@ -1,74 +1,211 @@
 {
   "week": "2026-11-02",
   "postAt": "20:00",
-  "hashtags": "#quitporn #nofap #pornaddictionrecovery #pornfree #recoveryjourney",
-  "cta": "Guardian is launching soon. Follow along so you hear first. 🛡️",
-  "ctaLive": "Guardian is out now on the App Store for iPhone. Link in bio. Android is coming soon. 🛡️",
+  "hashtags": "#quitporn #nofap #pornaddiction #pornfree #pornaddictionrecovery",
+  "cta": "Guardian is an app that helps you quit porn. Launching soon on iPhone. Follow so you don't miss it. 🛡️",
+  "ctaLive": "Guardian helps you quit porn. Out now on the App Store for iPhone, link in bio. Android is coming soon. 🛡️",
   "posts": [
     {
       "date": "2026-11-02",
       "day": "mon",
-      "name": "the-ranger-journey",
+      "name": "porn-lies",
       "kind": "carousel",
       "slides": [
-        { "template": "Journey", "label": "WHAT YOU'RE FIGHTING FOR", "lead": "Real people aren't scripts.", "emphasis": "Real connection is better.", "stages": ["journey_ranger_stage_0", "journey_ranger_stage_4", "journey_ranger_stage_8"], "captions": ["THE START", "THE PATH", "THE RANGER"] },
-        { "template": "Character", "art": "journey_ranger_stage_0", "label": "BEHIND THE SCREEN", "lead": "You can't tell from the screen", "emphasis": "who chose to be there.", "sub": "That alone is reason enough to look away." },
-        { "template": "Character", "art": "journey_ranger_stage_4", "label": "WHAT GROWS INSTEAD", "lead": "Slower. Messier.", "emphasis": "Far more real." },
-        { "template": "Character", "art": "journey_ranger_stage_8", "label": "ONE DAY AT A TIME", "lead": "Choose the real thing.", "emphasis": "Starting today." }
+        {
+          "template": "Journey",
+          "label": "QUIT PORN",
+          "lead": "3 lies porn tells you.",
+          "emphasis": "Don't fall for them.",
+          "stages": [
+            "journey_ranger_stage_0",
+            "journey_ranger_stage_4",
+            "journey_ranger_stage_8"
+          ],
+          "captions": [
+            "THE START",
+            "THE PATH",
+            "THE RANGER"
+          ]
+        },
+        {
+          "template": "Character",
+          "art": "journey_ranger_stage_0",
+          "label": "LIE #1",
+          "lead": "\"It helps me relax.\"",
+          "emphasis": "Then why do you feel worse after?"
+        },
+        {
+          "template": "Character",
+          "art": "journey_ranger_stage_4",
+          "label": "LIE #2",
+          "lead": "\"I can stop anytime.\"",
+          "emphasis": "Then stop today."
+        },
+        {
+          "template": "Character",
+          "art": "journey_warrior_stage_8",
+          "label": "LIE #3",
+          "lead": "\"It's harmless.\"",
+          "emphasis": "It isn't.",
+          "sub": "The screen never shows who chose to be there. Real people aren't scripts."
+        }
       ],
-      "caption": "Porn is staged, edited and scripted. Real intimacy is slower, more awkward, and far better.\n\nAnd there's something the screen never shows: whether the person in the video actually chose to be there. That alone is reason enough to look away.\n\nWhat you're fighting for is real connection, with real people, on real terms. It's worth the wait. 💜\n\nSave this for a hard night."
+      "caption": "3 lies porn tells you, and why they keep you stuck.\n\n1. \"It helps me relax.\" The relief lasts minutes. The fog and regret last the rest of the night.\n2. \"I can stop anytime.\" If that were true, you'd have stopped already. Today is a good day to prove it.\n3. \"It's harmless.\" Porn is staged and scripted, and the screen never shows whether the person in it actually chose to be there.\n\nWhich lie kept you stuck the longest? Tell us below. 👇\n\nSave this for a hard night."
     },
     {
       "date": "2026-11-03",
       "day": "tue",
       "name": "friction",
       "kind": "reel",
-      "reel": { "template": "ClipReel", "clip": "b1_curtain", "start": 2, "len": 6, "lines": [{ "at": 0, "until": 3, "lead": "One tap away." }, { "at": 3.2, "until": 6, "lead": "A few seconds of friction", "emphasis": "changes everything." }], "closing": "Guardian adds that pause for you." },
-      "caption": "Willpower is unreliable. Design isn't.\n\nThe urge needs speed. If it takes three extra steps to get there, the wave often passes before you do. Charge your phone outside the bedroom. Log out. Move tempting apps off your home screen. Turn on a content filter.\n\nGuardian adds that pause for you: a calm curtain before risky sites, so you get a moment to choose. 🛠️"
+      "reel": {
+        "template": "ClipReel",
+        "clip": "b1_curtain",
+        "start": 2,
+        "len": 6,
+        "lines": [
+          {
+            "at": 0,
+            "until": 3,
+            "lead": "Porn is one tap away."
+          },
+          {
+            "at": 3.2,
+            "until": 6,
+            "lead": "Make it",
+            "emphasis": "ten taps away."
+          }
+        ],
+        "closing": "Guardian puts a wall between you and porn."
+      },
+      "caption": "You won't out-willpower a porn site at midnight. Design beats willpower.\n\nPorn needs speed. So make it slow: phone charges outside the bedroom, browsers logged out, a blocker switched on. When it takes ten steps instead of one, the urge usually passes before you get there.\n\nGuardian builds that pause in for you: a curtain over porn sites, so you get a moment to choose. 🛠️"
     },
     {
       "date": "2026-11-04",
       "day": "wed",
-      "name": "fully-there",
+      "name": "what-porn-costs",
       "kind": "reel",
-      "reel": { "template": "ClipReel", "clip": "m2_breakfast", "len": 6, "lines": [{ "at": 0, "until": 3, "lead": "Present." }, { "at": 3.2, "until": 6, "lead": "Be", "emphasis": "fully there." }], "closing": "Fight for what matters most to you." },
-      "caption": "The people in your life get the version of you that walks away from this.\n\nPresent. Rested. Laughing at breakfast instead of carrying a secret.\n\nThat's the whole point. 💜"
+      "reel": {
+        "template": "ClipReel",
+        "clip": "m2_breakfast",
+        "len": 6,
+        "lines": [
+          {
+            "at": 0,
+            "until": 3,
+            "lead": "Porn costs more",
+            "emphasis": "than time."
+          },
+          {
+            "at": 3.2,
+            "until": 6,
+            "lead": "It costs you",
+            "emphasis": "being present."
+          }
+        ],
+        "closing": "Quit porn. Get yourself back."
+      },
+      "caption": "Porn doesn't just cost you 20 minutes. It costs you the next morning: the fog, the shame, the half-there conversations.\n\nQuit, and the people in your life get the version of you that's present. Rested. Not carrying a secret.\n\nThat's what you're fighting for. Tag someone who's quitting with you. 💜"
     },
     {
       "date": "2026-11-05",
       "day": "thu",
-      "name": "the-mage-66",
-      "kind": "post",
-      "slides": [
-        { "template": "Character", "art": "journey_mage_stage_8", "label": "NEW HABITS TAKE TIME", "lead": "Be patient with yourself.", "emphasis": "Missing a day doesn't undo it." }
-      ],
-      "caption": "How long does it take for a new habit to feel automatic?\n\nIn one study that followed people building new daily habits, it took anywhere from 18 to 254 days, typically around 66. And missing a single day didn't derail the process.\n\nSo if it still feels hard, that's normal. You're not failing. You're in the middle. 🌿\n\n(Source: Lally et al., European Journal of Social Psychology, 2010)\n\nSave this for a hard night."
+      "name": "how-long",
+      "kind": "reel",
+      "reel": {
+        "template": "ClipReel",
+        "clip": "m1_run",
+        "len": 6,
+        "lines": [
+          {
+            "at": 0,
+            "until": 3,
+            "lead": "When does quitting porn",
+            "emphasis": "get easier?"
+          },
+          {
+            "at": 3.2,
+            "until": 6,
+            "lead": "New habits take",
+            "emphasis": "~66 days."
+          }
+        ],
+        "closing": "Day 20 feels hard? That's normal. Keep going."
+      },
+      "caption": "When does quitting porn get easier?\n\nThere's no exact number for porn. But in one study on building new daily habits, it took anywhere from 18 to 254 days for a habit to feel automatic, typically around 66. And missing a single day didn't derail it.\n\nSo if day 20 still feels hard, you're not failing. You're in the middle. 🌿\n\nWhat day are you on? Drop it below.\n\n(Source: Lally et al., European Journal of Social Psychology, 2010)"
     },
     {
       "date": "2026-11-06",
       "day": "fri",
-      "name": "pushing-back",
+      "name": "not-the-only-one",
       "kind": "reel",
-      "reel": { "template": "ClipReel", "clip": "k2_pull", "len": 4, "lines": [{ "at": 0, "until": 4, "lead": "Feel like the only one?", "emphasis": "You're not." }], "closing": "Thousands are pushing back. You're one of them." },
-      "caption": "It can feel like you're the only one fighting this. You're not.\n\nAll over the world, people are quitting, speaking up and pushing back against an industry that profits from harm. Every day you stay free, you're part of that.\n\nTag someone who's in this fight with you. 💛"
+      "reel": {
+        "template": "ClipReel",
+        "clip": "k2_pull",
+        "len": 4,
+        "lines": [
+          {
+            "at": 0,
+            "until": 4,
+            "lead": "Think you're the only one hooked on porn?",
+            "emphasis": "You're not."
+          }
+        ],
+        "closing": "Quitting? Comment ✊"
+      },
+      "caption": "It can feel like you're the only one who can't stop watching porn. You're not. Not even close.\n\nAll over the world, people are quitting and pushing back against an industry built to keep you clicking. Every day you stay off it, you're part of that.\n\nIf you're in this fight, comment ✊. Let the next guy see he's not alone."
     },
     {
       "date": "2026-11-07",
       "day": "sat",
-      "name": "day-thirty",
-      "kind": "post",
-      "slides": [
-        { "mood": "gold", "centered": true, "mark": "diamond", "label": "DAY 30", "lead": "You decided you were worth fighting for.", "emphasis": "You were right.", "sub": "Be proud of the quiet wins nobody saw.", "size": 88 }
-      ],
-      "caption": "Thirty days. A whole month of choosing yourself.\n\nIf you're hitting day 30, stop for a second and take it in. Nobody saw most of those wins. They were quiet: a phone put down, a walk taken, a night you went to bed instead.\n\nThose count the most. 💛"
+      "name": "thirty-days",
+      "kind": "reel",
+      "reel": {
+        "template": "ClipReel",
+        "clip": "a2_morning",
+        "len": 6,
+        "lines": [
+          {
+            "at": 0,
+            "until": 3,
+            "lead": "30 days",
+            "emphasis": "without porn."
+          },
+          {
+            "at": 3.2,
+            "until": 6,
+            "lead": "Clear mornings.",
+            "emphasis": "Nothing to hide."
+          }
+        ],
+        "closing": "Proud of every quiet win."
+      },
+      "caption": "30 days porn-free. A whole month of choosing yourself.\n\nIf you're there, stop and take it in. Nobody saw most of those wins: a phone put down, a walk taken, a night you went to bed instead.\n\nWhat changed most for you since quitting? Tell us below. Someone on day 3 needs to read it. 💛"
     },
     {
       "date": "2026-11-08",
       "day": "sun",
       "name": "how-far",
       "kind": "reel",
-      "reel": { "template": "ClipReel", "clip": "m1_sunrise", "len": 6, "lines": [{ "at": 0, "until": 3, "lead": "Look how far" }, { "at": 3.2, "until": 6, "emphasis": "you've come." }], "closing": "Keep going." },
-      "caption": "Whatever this month looked like for you, perfect or messy, you know more than you did on day one.\n\nYou know your danger hours. You know what an urge feels like, and that it passes. You know your why.\n\nThat knowledge doesn't go away. Keep going. 🧡"
+      "reel": {
+        "template": "ClipReel",
+        "clip": "m1_sunrise",
+        "len": 6,
+        "lines": [
+          {
+            "at": 0,
+            "until": 3,
+            "lead": "Quitting porn this month?"
+          },
+          {
+            "at": 3.2,
+            "until": 6,
+            "lead": "Look how far",
+            "emphasis": "you've come."
+          }
+        ],
+        "closing": "Keep going. One day at a time."
+      },
+      "caption": "Whatever this month of quitting porn looked like, perfect or messy, you know more than you did on day one.\n\nYou know your danger hours. You know an urge peaks and passes. You know your why.\n\nThat doesn't go away. Keep going. 🧡\n\nFollow for daily help quitting porn."
     }
   ]
 }

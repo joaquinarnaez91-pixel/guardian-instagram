@@ -1,9 +1,9 @@
 {
   "week": "2026-10-26",
   "postAt": "20:00",
-  "hashtags": "#quitporn #nofap #pornaddictionrecovery #pornfree #recoveryjourney",
-  "cta": "Guardian is launching soon. Follow along so you hear first. 🛡️",
-  "ctaLive": "Guardian is out now on the App Store for iPhone. Link in bio. Android is coming soon. 🛡️",
+  "hashtags": "#quitporn #nofap #pornaddiction #pornfree #pornaddictionrecovery",
+  "cta": "Guardian is an app that helps you quit porn. Launching soon on iPhone. Follow so you don't miss it. 🛡️",
+  "ctaLive": "Guardian helps you quit porn. Out now on the App Store for iPhone, link in bio. Android is coming soon. 🛡️",
   "posts": [
     {
       "date": "2026-10-26",
@@ -11,10 +11,44 @@
       "name": "the-warrior",
       "kind": "carousel",
       "slides": [
-        { "template": "Journey", "label": "HOW CHANGE WORKS", "lead": "Habits weaken", "emphasis": "when they aren't fed.", "stages": ["journey_warrior_stage_0", "journey_warrior_stage_4", "journey_warrior_stage_8"], "captions": ["DAY ONE", "THE GRIND", "THE WARRIOR"] },
-        { "template": "Character", "art": "journey_warrior_stage_0", "label": "EVERY URGE", "lead": "Every urge you ride out teaches your brain:", "emphasis": "this leads nowhere." },
-        { "template": "Character", "art": "journey_warrior_stage_4", "label": "REPLACE, DON'T JUST REMOVE", "lead": "Pick what you'll do instead.", "emphasis": "Then do it now.", "sub": "A walk. A call. A glass of cold water." },
-        { "template": "Character", "art": "journey_warrior_stage_8", "label": "KEEP GOING", "lead": "You're not just stopping something.", "emphasis": "You're growing everything else." }
+        {
+          "template": "Journey",
+          "label": "HOW CHANGE WORKS",
+          "lead": "Habits weaken",
+          "emphasis": "when they aren't fed.",
+          "stages": [
+            "journey_warrior_stage_0",
+            "journey_warrior_stage_4",
+            "journey_warrior_stage_8"
+          ],
+          "captions": [
+            "DAY ONE",
+            "THE GRIND",
+            "THE WARRIOR"
+          ]
+        },
+        {
+          "template": "Character",
+          "art": "journey_warrior_stage_0",
+          "label": "EVERY URGE",
+          "lead": "Every urge you ride out teaches your brain:",
+          "emphasis": "this leads nowhere."
+        },
+        {
+          "template": "Character",
+          "art": "journey_warrior_stage_4",
+          "label": "REPLACE, DON'T JUST REMOVE",
+          "lead": "Pick what you'll do instead.",
+          "emphasis": "Then do it now.",
+          "sub": "A walk. A call. A glass of cold water."
+        },
+        {
+          "template": "Character",
+          "art": "journey_warrior_stage_8",
+          "label": "KEEP GOING",
+          "lead": "You're not just stopping something.",
+          "emphasis": "You're growing everything else."
+        }
       ],
       "caption": "Your brain strengthens the paths you use and quietly lets the others fade.\n\nEvery urge you ride out is a repetition in the other direction: the cue shows up, and nothing follows. Early on the pull feels constant. With time, it gets quieter.\n\nThe trick is not leaving a hole. Decide now what you'll do when the urge comes, and do that instead. 🛡️\n\nSave this for a hard night."
     },
@@ -23,7 +57,25 @@
       "day": "tue",
       "name": "danger-hour",
       "kind": "reel",
-      "reel": { "template": "ClipReel", "clip": "k1_scroll", "len": 6, "lines": [{ "at": 0, "until": 2.8, "lead": "11:47 PM." }, { "at": 3, "until": 6, "lead": "Tired. Alone.", "emphasis": "Phone in hand." }], "closing": "Know your danger hour. Plan for it." },
+      "reel": {
+        "template": "ClipReel",
+        "clip": "k1_scroll",
+        "len": 6,
+        "lines": [
+          {
+            "at": 0,
+            "until": 2.8,
+            "lead": "11:47 PM."
+          },
+          {
+            "at": 3,
+            "until": 6,
+            "lead": "Tired. Alone.",
+            "emphasis": "Phone in hand."
+          }
+        ],
+        "closing": "Know your danger hour. Plan for it."
+      },
       "caption": "Most slips don't happen at noon. They happen late, tired, alone, phone in hand.\n\nKnow your danger hour and plan for it. Charge your phone outside the bedroom. Set a time when screens go off. Have a book by the bed.\n\nIf it's late and you're reading this: put the phone down. Seriously. Goodnight. 🌙"
     },
     {
@@ -31,7 +83,25 @@
       "day": "wed",
       "name": "wake-up-proud",
       "kind": "reel",
-      "reel": { "template": "ClipReel", "clip": "m1_run", "len": 6, "lines": [{ "at": 0, "until": 3, "lead": "Wake up proud." }, { "at": 3.2, "until": 6, "lead": "Clear head.", "emphasis": "Nothing to hide." }], "closing": "The best mornings start the night before." },
+      "reel": {
+        "template": "ClipReel",
+        "clip": "m1_run",
+        "len": 6,
+        "lines": [
+          {
+            "at": 0,
+            "until": 3,
+            "lead": "Wake up proud."
+          },
+          {
+            "at": 3.2,
+            "until": 6,
+            "lead": "Clear head.",
+            "emphasis": "Nothing to hide."
+          }
+        ],
+        "closing": "The best mornings start the night before."
+      },
       "caption": "There's a kind of morning you only get after a night you're proud of.\n\nClear head. Real energy. Nothing to hide from yourself.\n\nThat's what you're fighting for. Tag someone who's chasing mornings like this. 🌅"
     },
     {
@@ -40,7 +110,14 @@
       "name": "the-ranger",
       "kind": "post",
       "slides": [
-        { "template": "Character", "art": "journey_ranger_stage_8", "label": "THE RANGER", "lead": "The craving is loud.", "emphasis": "The payoff is small.", "sub": "The urge always promises more than it delivers." }
+        {
+          "template": "Character",
+          "art": "journey_ranger_stage_8",
+          "label": "THE RANGER",
+          "lead": "The craving is loud.",
+          "emphasis": "The payoff is small.",
+          "sub": "The urge always promises more than it delivers."
+        }
       ],
       "caption": "The urge always promises more than it delivers.\n\nWanting and enjoying are run by different systems in the brain. The wanting can get very loud while the actual reward stays small, and it's often followed by regret.\n\nNext time it's loud, remember how it really ends. Then choose differently. 🏹"
     },
@@ -49,26 +126,62 @@
       "day": "fri",
       "name": "not-alone",
       "kind": "reel",
-      "reel": { "template": "ClipReel", "clip": "a2_morning", "len": 6, "lines": [{ "at": 0, "until": 3, "lead": "Carrying this alone?" }], "closing": "Tell one person. Secrecy is where it grows." },
+      "reel": {
+        "template": "ClipReel",
+        "clip": "a2_morning",
+        "len": 6,
+        "lines": [
+          {
+            "at": 0,
+            "until": 3,
+            "lead": "Carrying this alone?"
+          }
+        ],
+        "closing": "Tell one person. Secrecy is where it grows."
+      },
       "caption": "Secrecy is where this habit grows. Telling just one trusted person takes away a lot of its power.\n\nIt doesn't have to be a big confession. A friend, a brother, a partner, a mentor. Someone you can text when it gets hard, or who checks in on you once a week.\n\nWho's your one person? 🤝"
     },
     {
       "date": "2026-10-31",
       "day": "sat",
-      "name": "someone-learning",
-      "kind": "post",
-      "slides": [
-        { "template": "PhotoQuote", "image": "photos/m2_breakfast.jpg", "focus": 30, "label": "FOR THE ONES WHO WATCH YOU", "lead": "Someone is learning from your choices.", "emphasis": "Make this one count." }
-      ],
-      "caption": "A partner. A younger brother. A son or daughter, now or one day. A friend who looks up to you.\n\nSomeone is watching how you handle hard things. Every time you walk away from the urge, you're showing them what strength actually looks like.\n\nMake this one count. 💜"
+      "name": "day-one-quit-porn",
+      "kind": "reel",
+      "reel": {
+        "template": "ClipReel",
+        "clip": "k2_pull",
+        "len": 4,
+        "lines": [
+          {
+            "at": 0,
+            "until": 4,
+            "lead": "Quitting porn?",
+            "emphasis": "Comment \"1\"."
+          }
+        ],
+        "closing": "Day 1 starts when you say it."
+      },
+      "caption": "If you're quitting porn, say it. Comment \"1\" below.\n\nNo shame here. Almost everyone who quits started exactly where you are: tired of the late-night loop, tired of feeling worse after, tired of hiding it.\n\nSaying it out loud is the first rep. Then come back tomorrow and do it again. 🛡️"
     },
     {
       "date": "2026-11-01",
       "day": "sun",
-      "name": "weathers",
+      "name": "relapsed",
       "kind": "reel",
-      "reel": { "template": "ClipReel", "clip": "a1_glow", "len": 4, "lines": [{ "at": 0, "until": 4, "lead": "Slipped this week?", "emphasis": "It doesn't erase you." }], "closing": "Your journey weathers. It never disappears." },
-      "caption": "Most people who quit something for good slipped along the way. What set them apart wasn't a perfect record. It was how fast they got back up.\n\nThat's why in Guardian a slip doesn't wipe your progress. It weathers your journey for a few days, and then it shines again.\n\nThe skill you're really building is the comeback. 🧡"
+      "reel": {
+        "template": "ClipReel",
+        "clip": "a1_glow",
+        "len": 4,
+        "lines": [
+          {
+            "at": 0,
+            "until": 4,
+            "lead": "Relapsed on porn?",
+            "emphasis": "Don't restart from zero."
+          }
+        ],
+        "closing": "A slip isn't a reset. Get back up today."
+      },
+      "caption": "Relapsed this week? The next 24 hours matter more than the slip.\n\nThe shame spiral is what keeps people stuck on porn for years: slip, feel disgusting, watch again to numb it. Break the chain right here.\n\nThat's why in Guardian a relapse doesn't wipe your progress. Your journey weathers for a few days, then it shines again. The skill you're really building is the comeback. 🧡\n\nSend this to someone who needs it today."
     }
   ]
 }
